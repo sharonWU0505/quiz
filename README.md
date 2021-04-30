@@ -22,3 +22,8 @@ Please answer the following tasks:
   - If `c` is larger than `7`, the total number is **(`abc` + 1) \* 100**
   - If `c` is equal to `7`, the total number is **`abc` \* 100 + `de` + 1**
   - If `c` is less than `7`, the total number is **`abc` \* 100**
+
+### Testing
+
+- Set up: `npm install`
+- Run the test: `npm test`
