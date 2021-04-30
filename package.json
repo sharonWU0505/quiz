@@ -1,0 +1,22 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "Quiz",
+  "main": "count.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharonWU0505/quiz.git"
+  },
+  "author": "sharonwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharonWU0505/quiz/issues"
+  },
+  "homepage": "https://github.com/sharonWU0505/quiz#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
