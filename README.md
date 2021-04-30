@@ -19,9 +19,9 @@ Please answer the following tasks:
 
 - Main concept: For each digit of N, compute the total number of 7 that can appear on that digit.
 - Explanation: For N = `abcde` and we're now looking at digit `c`
-  - If `c` is larger than `7`, the total number is **(`abc` + 1) \* 100**
-  - If `c` is equal to `7`, the total number is **`abc` \* 100 + `de` + 1**
-  - If `c` is less than `7`, the total number is **`abc` \* 100**
+  - If `c > 7`, the total number is **(`abc` + 1) \* 100**
+  - If `c === 7`, the total number is **`abc` \* 100 + `de` + 1**
+  - If `c < 7`, the total number is **`abc` \* 100**
 
 ### Testing
 
