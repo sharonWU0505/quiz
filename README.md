@@ -17,7 +17,7 @@ Please answer the following tasks:
 
 ### Solution
 
-##### Main concept: find the pattern mathematically
+#### Main concept: find the pattern mathematically
 
 - (1) Count of numbers from 0 to 9 containing digit 7: `1`
 - (2) Count of numbers from 0 to 99 containing digit 7: `10 + 9 * 1`
@@ -35,7 +35,7 @@ g(10^d) = 10^(d-1) + 9 * g(10^(d-1))
 
 For algorithm, we can use dynamic programming for memorizing overlapping sub-problems.
 
-##### Implementations on the Problem
+#### Implementation on the Problem
 
 > - `N` is the max number to check from 1
 > - `target` is `7` in our case
@@ -64,7 +64,7 @@ For algorithm, we can use dynamic programming for memorizing overlapping sub-pro
      - (1) count of numbers from 1 to 599
      - (2) count of numbers from 600 to 654, do recursion for 54
 
-##### Evaluation
+#### Evaluation
 
 - Time complexity: O(log10N)
 - Space complexity: O(log10N)
