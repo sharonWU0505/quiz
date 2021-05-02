@@ -71,5 +71,7 @@ For algorithm, we can use dynamic programming for memorizing overlapping sub-pro
 
 ### Testing (with [Jest](https://jestjs.io/))
 
+- Make sure that you've `node` and `npm` installed
+  - Installing `node` and `npm` by [`nvm`](https://github.com/nvm-sh/nvm) is suggested.
 - Set up: `npm install`
 - Run the test: `npm test`
